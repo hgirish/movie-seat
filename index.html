@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Movie Booking</h1>
+  <div class="container">
+    <div class="movie-selection">
+      <h2>Select Movie:</h2>
+      <select id="movie-select">
+        <option value="movie1" data-price="10">Movie 1 (&#36;10)</option>
+        <option value="movie2" data-price="12">Movie 2 (&#36;12)</option>
+        <option value="movie3" data-price="15">Movie 3 (&#36;15)</option>
+      </select>
+    </div>
+    <div class="seat-map" id="seat-map"></div>
+    <div class="booking-info">
+      <h2>Selected Seats:</h2>
+      <p id="selected-seats"></p>
+      <h2>Total Price:</h2>
+      <p id="total-price">&#36;0</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
